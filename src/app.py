@@ -12,6 +12,7 @@ hi = 10
 balance = 10000
 portfolio = 0
 
+private_key, address = account.generate_account()
 accts = get_accounts()
 acct3 = accts.pop()
 acct2 = accts.pop()

@@ -9,8 +9,6 @@ import DiscoveryTab from './DiscoveryTab'; // Import the DiscoveryTab component
 import styled from 'styled-components';
 
 
-
-
 const Container = styled.div`
   font-family: Arial, sans-serif;
   text-align: center;

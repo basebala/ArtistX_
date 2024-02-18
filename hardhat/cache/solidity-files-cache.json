@@ -1,0 +1,75 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/chandna/artisteq/hardhat/contracts/your_contract.sol": {
+      "lastModificationDate": 1708265395165,
+      "contentHash": "7a782ef1993664cf5ff0a2a4c1e73d58",
+      "sourceName": "contracts/your_contract.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "your_contract"
+      ]
+    },
+    "/Users/chandna/artisteq/hardhat/contracts/new_contract.sol": {
+      "lastModificationDate": 1708265671567,
+      "contentHash": "8f3188db588e71f31423c6325ed7686e",
+      "sourceName": "contracts/new_contract.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "new_contract"
+      ]
+    }
+  }
+}
