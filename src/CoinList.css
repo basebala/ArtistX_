@@ -1,0 +1,91 @@
+.coin-list {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.coin-list h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.balance {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: blue;
+  font-weight: bold;
+}
+
+.available {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: purple;
+  font-weight: bold;
+}
+
+.coin-list h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.coin-list h5 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center both horizontally and vertically */
+  flex-direction: column; /* Stack items vertically */
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  text-align: center; /* Center text within the container */
+}
+
+.left-image {
+  width: 150px; /* Increase image width */
+  height: 150px; /* Increase image height */
+  border-radius: 50%;
+  cursor: pointer;
+  margin-bottom: 5px; /* Reduce space below the image */
+  margin-top: 5px;
+}
+
+.image-with-text-container {
+  display: flex;
+  flex-direction: column; /* Stack image and text vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+input[type="number"],
+input[type="text"] {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
