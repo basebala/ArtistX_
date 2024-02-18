@@ -17,5 +17,5 @@ users: defineTable({
     time: v.string(),
     user_name: v.string(),
     password : v.string(),
-}).index("by_token", ["time", "user_name", "password"]).index("by_token", ["time", "user_name", "password"]),
+}),
 });
