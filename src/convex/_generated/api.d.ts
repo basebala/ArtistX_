@@ -15,6 +15,7 @@ import type {
   FunctionReference,
 } from "convex/server";
 import type * as artists from "../artists.js";
+import type * as crons from "../crons.js";
 import type * as logs from "../logs.js";
 import type * as test from "../test.js";
 import type * as users from "../users.js";
@@ -29,6 +30,7 @@ import type * as users from "../users.js";
  */
 declare const fullApi: ApiFromModules<{
   artists: typeof artists;
+  crons: typeof crons;
   logs: typeof logs;
   test: typeof test;
   users: typeof users;
